@@ -34,7 +34,7 @@ Bio::EnsEMBL::Variation::Pipeline::ProteinFunction::ProteinFunction_conf \
 -pipeline_dir ${OUTPUT_DIR} -ensembl_registry ${registry} \
 -include_lrg 0 \
 -fasta_file ${OUTPUT_DIR}/${species}.pep \
---pipeline_db -host=mysql-ens-plants-prod-1 --pipeline_db -port=4243 --pipeline_db -user=ensrw --pipeline_db -pass=writ3rp3 \
+--pipeline_db -host=mysql-ens-plants-prod-1 --pipeline_db -port=4243 --pipeline_db -user=xxxx --pipeline_db -pass=xxxx \
 -sift_dir $SIFT_DIR -sift_working ${OUTPUT_DIR}/sift/ \
 -blastdb /nfs/production/panda/ensembl/variation/data/sift5.2.2/uniref90/uniref90.fasta \
 -ncbi_dir $NCBI \
