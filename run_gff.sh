@@ -1,15 +1,15 @@
 #https://www.ebi.ac.uk/seqdb/confluence/display/EnsGen/Load+GFF3+Pipeline
-pipeline_name=gff_loader_barnyard
+pipeline_name=gff_loader_brassica_jun
 
-species=echinochloa_crusgalli
+species=brassica_juncea
 
-pipeline_dir=/hps/nobackup/flicek/ensembl/plants/${USER}//gff_loader/barnyard
+pipeline_dir=/hps/nobackup/flicek/ensembl/plants/${USER}//gff_loader/brassica_jun
 mkdir -p $pipeline_dir
 
-path=/nfs/production/flicek/ensembl/plants/external_data/echinochloa_crusgalli/gff
+path=/nfs/production/flicek/ensembl/plants/external_data/brassica_juncea/gff
 
-gff_file=$path/EC.gff
-gene_source=ziu
+gff_file=$path/Bju.SCHZ.V1.2.gff
+gene_source=HUNAU
 
 ## Moving on
 registry=/hps/software/users/ensembl/ensw/registries/ensembl/pl1-w.pm
