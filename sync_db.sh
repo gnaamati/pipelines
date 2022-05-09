@@ -8,8 +8,11 @@ echo init_pipeline.pl Bio::EnsEMBL::Production::Pipeline::PipeConfig::Production
   -registry /hps/software/users/ensembl/ensw/registries/ensembl/pl1-w.pm \
   -division plants \
   -group core \
-  -pipeline_dir /hps/scratch/flicek/ensembl/$USER/prod_db_sync
+  -pipeline_dir /hps/scratch/flicek/ensembl/$USER/prod_db_sync \
+  -hive_force_init 1
 
+
+  #$(h1-w details hive) \
 
   #-history_file /nfs/panda/ensembl/production/datachecks/history/st3.json \
 init_pipeline.pl Bio::EnsEMBL::Production::Pipeline::PipeConfig::ProductionDBSync_conf \
